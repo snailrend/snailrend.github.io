@@ -11,8 +11,9 @@ jobs:
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: snailrend/snailrend
+        TARGET_REPO: snailrend/snailrend.github.io
         TARGET_BRANCH: build
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: docs/.vuepress/dist
         CNAME: https://snailrend.github.com/
+
