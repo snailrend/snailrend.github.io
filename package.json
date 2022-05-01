@@ -1,0 +1,21 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "NEW VIEW",
+  "main": "index.js",
+  "author": "songjg",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  },
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-rss": "^1.0.2",
+    "vuepress-plugin-auto-sidebar": "^2.3.2",
+    "vuepress-theme-reco": "^1.6.11"
+  }
+}
