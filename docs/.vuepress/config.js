@@ -3,7 +3,7 @@ module.exports = {
   theme: 'reco',
   title: 'Snailrend',
   description: '',
-  plugins:['vuepress-plugin-auto-sidebar'],
+  plugins:["vuepress-plugin-auto-sidebar"],
   themeConfig: {
     nav: [
       ...nav,
