@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "学习笔记/数据库/README.md",
+            "file": "README.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/数据库/README.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,12 +89,12 @@
   },
   "active": "4e65e8689dfe42ad",
   "lastOpenFiles": [
+    "README.md",
     "学习笔记/数据库/README.md",
     "学习笔记/前端/README.md",
     "学习笔记/java/README.md",
     "学习笔记/前端/README.md",
     "环境安装/README.md",
-    "README.md",
     "SOP/README.md",
     "职场/README.md",
     "学习笔记/README.md",
