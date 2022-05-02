@@ -3,8 +3,9 @@ module.exports = {
   theme: 'reco',
   title: 'Snailrend',
   description: '',
-  plugins: {
-    "vuepress-plugin-auto-sidebar": {
+  plugins: [
+    "vuepress-plugin-auto-sidebar", 
+	{
       sort: {
         mode: "asc",
         readmeFirst: true,
@@ -26,7 +27,7 @@ module.exports = {
         trackStatus: 'all'
       }
     }
-  },
+  ],
   themeConfig: {
     nav: [
       ...nav,

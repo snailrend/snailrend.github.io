@@ -6,8 +6,8 @@
   "author": "songjg",
   "license": "MIT",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
+    "docs:dev": "vuepress nav docs -f && vuepress dev docs",
+    "docs:build": "vuepress nav docs -f && vuepress build docs",
     "build": "vuepress build docs"
   },
   "devDependencies": {
