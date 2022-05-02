@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "学习笔记/前端/README.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "学习笔记/前端/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "4e65e8689dfe42ad",
   "lastOpenFiles": [
+    "学习笔记/前端/README.md",
+    "环境安装/README.md",
     "README.md",
     "SOP/README.md",
     "职场/README.md",
     "学习笔记/README.md",
     "环境安装/hugo-静态博客管理的安装.md",
-    "环境安装/README.md",
     "职场/重要会议场景.md",
     "SOP/接口开发.md",
-    "学习笔记/数据库/mysql进阶学习.md",
-    "学习笔记/数据库/mysql语法学习.md"
+    "学习笔记/数据库/mysql进阶学习.md"
   ]
 }
