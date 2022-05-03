@@ -30,7 +30,7 @@ module.exports = (pluginOptions, ctx) => {
       })
 
       pages
-        .filter(page => String(page.frontmatter.type).toLowerCase() === 'post')
+        //.filter(page => String(page.frontmatter.type).toLowerCase() === 'post')
         .filter(page => filter(page.frontmatter))
         .map(page => ({...page, date: new Date(page.frontmatter.date || '')}))
         .sort((a, b) => b.date - a.date)
