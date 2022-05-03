@@ -1,1 +1,5 @@
+---
+autoIgnore: true
+---
+
 # java
