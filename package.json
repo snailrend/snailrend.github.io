@@ -10,12 +10,13 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "^1.9.7",
-	"chalk": "^2.4.1",
+    "chalk": "^2.4.1",
     "fs-extra": "^5.0.0",
-    "rss": "^1.2.2"
+    "rss": "^1.2.2",
+    "vuepress": "^1.9.7"
   },
   "dependencies": {
+    "moment": "^2.29.3",
     "vuepress-plugin-auto-sidebar": "^2.3.2"
   }
 }

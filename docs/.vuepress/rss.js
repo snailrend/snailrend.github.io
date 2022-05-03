@@ -2,6 +2,7 @@ const path = require('path')
 const RSS = require('rss')
 const chalk = require('chalk')
 const fs = require('fs-extra')
+const moment = require('moment')
 
 module.exports = (pluginOptions, ctx) => {
 	 
@@ -33,13 +34,14 @@ module.exports = (pluginOptions, ctx) => {
         //.filter(page => String(page.frontmatter.type).toLowerCase() === 'post')
         .filter(page => filter(page.frontmatter))
         .map(page => ({...page, date: new Date(page.frontmatter.date || '')}))
-        .sort((a, b) => b.date - a.date)
-        .map(page => ({
-          title: page.frontmatter.title,
-          description: page.excerpt,
+        .sort((a, b) => moment(b.createTime).toDate() - moment(a.createTime).toDate())
+        .map(page => {
+			return {
+          title: page.title,
+          description: page.title,
           url: `${pluginOptions.site_url}${page.path}`,
-          date: page.date,
-        }))
+          date: moment(page.createTime).toDate(),
+        }})
         .slice(0, count)
         .forEach(page => feed.item(page))
 
