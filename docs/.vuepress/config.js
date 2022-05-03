@@ -1,7 +1,7 @@
 const nav = require("./nav.js");
 
 module.exports = {
-  //theme: 'reco',
+  theme: '@vuepress/theme-blog',
   title: 'Snailrend',
   description: '',
   plugins: [
@@ -36,6 +36,7 @@ module.exports = {
       filter: (frontmatter) => { return true },
       // How much articles
       count: 20}],
+	  require("./readme-catalogue-generate.js")
   ],
   themeConfig: {
     nav: [...nav],

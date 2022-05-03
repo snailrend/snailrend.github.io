@@ -10,6 +10,7 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
+    "@vuepress/theme-blog": "^2.3.3",
     "chalk": "^2.4.1",
     "fs-extra": "^5.0.0",
     "rss": "^1.2.2",
