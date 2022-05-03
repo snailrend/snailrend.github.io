@@ -1,5 +1,4 @@
 const nav = require("./nav.js");
-const rss = require("./rss.js");
 
 module.exports = {
   //theme: 'reco',
@@ -7,8 +6,7 @@ module.exports = {
   description: '',
   plugins: [
     "vuepress-plugin-auto-sidebar", 
-	'vuepress-plugin-rss',
-	rss,
+	require("./rss.js"),
 	{
       sort: {
         mode: "asc",
