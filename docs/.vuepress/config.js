@@ -6,7 +6,6 @@ module.exports = {
   description: '',
   plugins: [
     "vuepress-plugin-auto-sidebar", 
-	require("./rss.js"),
 	{
       sort: {
         mode: "asc",
@@ -27,14 +26,16 @@ module.exports = {
       removeEmptyGroup: false,
       git: {
         trackStatus: 'all'
-      },
+      }
+    },
+	[require("./rss.js"),{
+
 	  base_url: '/', // required
       site_url: 'https://snailrend.github.io', // required
       // filter some post
       filter: (frontmatter) => { return true },
       // How much articles
-      count: 20
-    }
+      count: 20}],
   ],
   themeConfig: {
     nav: [...nav],

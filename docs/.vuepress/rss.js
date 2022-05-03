@@ -1,27 +1,32 @@
 const path = require('path')
 const RSS = require('rss')
 const chalk = require('chalk')
+const fs = require('fs-extra')
 
 module.exports = (pluginOptions, ctx) => {
+	 
+	 let pages, sourceDir;
+	 let filter = () => true, count = 20
+	 let siteData = {};
   return {
     name: 'rss',
     
+	ready(){
+      pages = ctx.pages;
+	  sourceDir = ctx.sourceDir;
+      filter = pluginOptions.filter || filter;
+	  count = pluginOptions.count || count;
+	  siteData = require(path.resolve(sourceDir, '.vuepress/config.js'))
+
+	},
     generated () {
-      const fs = require('fs-extra')
-      const { pages, sourceDir } = ctx
-      const { filter = () => true, count = 20 } = pluginOptions
-      const siteData = require(path.resolve(sourceDir, '.vuepress/config.js'))
-
-	  console.log("pluginOptions",pluginOptions.base_url);
-	  console.log("ctx",ctx);
-
       const feed = new RSS({
         title: siteData.title,
         description: siteData.description,
         feed_url: `${pluginOptions.site_url}/rss.xml`,
         site_url: `${pluginOptions.site_url}`,
-        copyright: `${pluginOptions.copyright ? pluginOptions.copyright : 'Coralo 2018'}`,
-        language: 'en',
+        copyright: `${pluginOptions.copyright ? pluginOptions.copyright : 'snailrend 2022'}`,
+        language: 'zh',
       })
 
       pages
