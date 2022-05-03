@@ -4,18 +4,19 @@
   "description": "NEW VIEW",
   "main": "index.js",
   "author": "songjg",
-  "license": "MIT",
   "scripts": {
     "docs:dev": "vuepress nav docs -f && vuepress dev docs",
     "docs:build": "vuepress nav docs -f && vuepress build docs",
     "build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "^1.9.7"
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-rss": "^2.0.0"
   },
   "dependencies": {
-    "@vuepress-reco/vuepress-plugin-rss": "^1.0.2",
     "vuepress-plugin-auto-sidebar": "^2.3.2",
-    "vuepress-theme-reco": "^1.6.11"
+	    "chalk": "^2.4.1",
+    "fs-extra": "^5.0.0",
+    "rss": "^1.2.2"
   }
 }

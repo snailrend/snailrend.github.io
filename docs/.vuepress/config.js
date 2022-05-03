@@ -1,10 +1,14 @@
 const nav = require("./nav.js");
+const rss = require("./rss.js");
+
 module.exports = {
-  theme: 'reco',
+  //theme: 'reco',
   title: 'Snailrend',
   description: '',
   plugins: [
     "vuepress-plugin-auto-sidebar", 
+	'vuepress-plugin-rss',
+	rss,
 	{
       sort: {
         mode: "asc",
@@ -25,16 +29,19 @@ module.exports = {
       removeEmptyGroup: false,
       git: {
         trackStatus: 'all'
-      }
+      },
+	  base_url: '/', // required
+      site_url: 'https://snailrend.github.io', // required
+      // filter some post
+      filter: (frontmatter) => { return true },
+      // How much articles
+      count: 20
     }
   ],
   themeConfig: {
-    nav: [
-      ...nav,
-      { text: '时间线', link: '/timeline/', icon: 'reco-date' }
-    ],
+    nav: [...nav],
     lastUpdated: '更新于',
-    subSidebar:'auto',
+    sidebar:'auto',
     displayAllHeaders: false,
     smoothScroll: true
   } 
