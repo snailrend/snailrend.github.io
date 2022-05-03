@@ -1,3 +1,9 @@
+---
+date: 2022-03-21 16:55:00
+title: Spring Boot 简单整合JPA
+feed:
+  enable: true
+---
 # Spring Boot 框架简单整合JPA
 
 ## 创建Spring Boot项目

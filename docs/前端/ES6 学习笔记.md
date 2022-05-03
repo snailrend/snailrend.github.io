@@ -1,3 +1,9 @@
+---
+date: 2022-03-21 16:55:00
+title: ES6 学习笔记
+feed:
+  enable: true
+---
 # ES6 学习
 
 ## let 和 const 命令

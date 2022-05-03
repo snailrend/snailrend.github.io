@@ -1,3 +1,9 @@
+---
+date: 2022-03-21 16:55:00
+title: mysql语法学习
+feed:
+  enable: true
+---
 # mysql语法学习
 
 ### SQL增删改查

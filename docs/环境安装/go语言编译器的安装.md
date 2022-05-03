@@ -1,7 +1,8 @@
 ---
-date:2018-9-3T19:40
-title:go语言编译器的安装
-type:post
+date: 2018-9-3 19:40:00
+title: go语言编译器的安装
+feed:
+  enable: true
 ---
 # go语言编译器的安装
 ## 下载软件包

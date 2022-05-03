@@ -1,7 +1,8 @@
 ---
-date:2018-9-3T20:11
-title:静态博客管理器hugo的安装
-
+date: 2018-9-3 20:11:00
+title: 静态博客管理器hugo的安装
+feed:
+  enable: true
 ---
 # hugo的安装
 ## 前言

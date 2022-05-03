@@ -1,7 +1,6 @@
 const nav = require("./nav.js");
 
 module.exports = {
-  theme: '@vuepress/theme-blog',
   title: 'Snailrend',
   description: '',
   plugins: [
@@ -28,16 +27,12 @@ module.exports = {
         trackStatus: 'all'
       }
     },
-	[require("./rss.js"),{
+	['feed',
+    {
+        canonical_base: 'http://snailrend.github.io',
+    }],
 
-	  base_url: '/', // required
-      site_url: 'https://snailrend.github.io', // required
-      // filter some post
-      filter: (frontmatter) => { return true },
-      // How much articles
-      count: 20}],
-	  require("./readme-catalogue-generate.js")
-  ],
+	  ],
   themeConfig: {
     nav: [...nav],
     lastUpdated: '更新于',
