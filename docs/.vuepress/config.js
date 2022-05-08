@@ -1,7 +1,7 @@
 const nav = require("./nav.js");
 
 module.exports = {
-  title: 'Snailrend',
+  title: '自旋向上',
   description: '',
   plugins: [
     '@vuepress/active-header-links',
@@ -12,7 +12,7 @@ module.exports = {
         transformer: (timestamp, lang) => {
           const moment = require('moment')
           moment.locale(lang)
-          return moment(timestamp).fromNow()
+          return moment(timestamp).format('YYYY-MM-DD HH:mm:ss')
         }
       }
     ],
