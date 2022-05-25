@@ -3,5 +3,12 @@
   "livePreview": true,
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "defaultViewMode": "source"
+  "defaultViewMode": "source",
+  "attachmentFolderPath": "./assets",
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
