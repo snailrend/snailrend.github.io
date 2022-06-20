@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "template/template.md",
+            "file": "职场/职业能力结构分析.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "template/template.md",
+                "file": "职场/职业能力结构分析.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,14 +89,12 @@
   },
   "active": "84c59f485f72f26b",
   "lastOpenFiles": [
+    "职场/职业能力结构分析.md",
+    "职场/职业能力结构分析.md",
     "template/template.md",
-    "职场/Untitled.md",
     "职场/重要会议场景.md",
     "职场/README.md",
-    "职场/职业能力结构分析.md",
-    "职场/职业能力结构分析.md",
     "Pasted image 20220525175417.png.md",
-    "职场/职业能力结构分析.md",
     "后端/java/关于并发工具的结构笔记.md",
     "后端/java/README.md"
   ]
