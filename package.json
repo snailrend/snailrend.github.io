@@ -7,7 +7,7 @@
   "scripts": {
     "docs:dev": "vuepress nav docs -f && vuepress dev docs",
     "docs:build": "vuepress nav docs -f && vuepress build docs",
-    "build": "vuepress build docs"
+    "build": "vuepress nav docs -f &&  vuepress build docs"
   },
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "^1.9.7",
