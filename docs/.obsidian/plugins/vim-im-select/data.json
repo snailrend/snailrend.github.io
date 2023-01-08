@@ -1,0 +1,8 @@
+{
+  "defaultIM": "fcitx-keyboard-cn-altgr-pinyin",
+  "obtainCmd": "fcitx-remote | sed 's/1/fcitx-keyboard-cn-altgr-pinyin/'| sed 's/2/pinyin/'",
+  "switchCmd": "fcitx-remote -t",
+  "windowsDefaultIM": "",
+  "windowsObtainCmd": "",
+  "windowsSwitchCmd": ""
+}

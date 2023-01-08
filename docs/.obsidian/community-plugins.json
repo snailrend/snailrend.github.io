@@ -1,4 +1,7 @@
 [
   "obsidian-git",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-outliner",
+  "obsidian-title-serial-number-plugin",
+  "vim-im-select"
 ]
