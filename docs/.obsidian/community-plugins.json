@@ -3,5 +3,6 @@
   "templater-obsidian",
   "obsidian-outliner",
   "obsidian-title-serial-number-plugin",
-  "obsidian-vim-im-switch-plugin"
+  "obsidian-vim-im-switch-plugin",
+  "obsidian-pandoc"
 ]
