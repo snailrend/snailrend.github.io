@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b11f6194a0eed329",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.9"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +128,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1b81b7364e4ebf32",
+  "active": "b11f6194a0eed329",
   "lastOpenFiles": [
     "职场/年终总结/2022年工作内容.md",
     "职场/年终总结/2022年总结.md",
