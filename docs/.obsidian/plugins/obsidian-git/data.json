@@ -3,7 +3,6 @@
   "autoCommitMessage": "{{date}}自动提交",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 60,
-  "autoPushInterval": 0,
   "autoPullInterval": 60,
   "autoPullOnBoot": true,
   "disablePush": false,
@@ -13,15 +12,10 @@
   "showStatusBar": true,
   "updateSubmodules": false,
   "syncMethod": "merge",
+  "gitPath": "",
   "customMessageOnAutoBackup": false,
   "autoBackupAfterFileChange": false,
   "treeStructure": false,
   "refreshSourceControl": true,
-  "basePath": "",
-  "differentIntervalCommitAndPush": false,
-  "changedFilesInStatusBar": false,
-  "showedMobileNotice": true,
-  "refreshSourceControlTimer": 7000,
-  "showBranchStatusBar": true,
-  "setLastSaveToLastCommit": false
+  "basePath": ""
 }
