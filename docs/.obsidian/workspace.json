@@ -26,9 +26,19 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "09d32b2faf82c9f8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.16"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -105,15 +115,15 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:新建白板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "canvas:Create new canvas": false,
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1b81b7364e4ebf32",
+  "active": "09d32b2faf82c9f8",
   "lastOpenFiles": [
     "SOP/开发/接口开发.md",
     "SOP/开发/需求开发（编码的角色）.md",
