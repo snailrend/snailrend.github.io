@@ -26,19 +26,9 @@
               "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "09d32b2faf82c9f8",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.16"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +113,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "09d32b2faf82c9f8",
+  "active": "1b81b7364e4ebf32",
   "lastOpenFiles": [
     "SOP/开发/接口开发.md",
     "SOP/开发/需求开发（编码的角色）.md",
