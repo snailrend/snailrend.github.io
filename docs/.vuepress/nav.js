@@ -3,8 +3,17 @@ module.exports = [
     "text": "SOP",
     "items": [
       {
-        "text": "SOP",
-        "link": "/SOP/"
+        "text": "开发",
+        "link": "/SOP/开发/"
+      }
+    ]
+  },
+  {
+    "text": "template",
+    "items": [
+      {
+        "text": "Template",
+        "link": "/template/"
       }
     ]
   },
@@ -42,6 +51,10 @@ module.exports = [
   {
     "text": "职场",
     "items": [
+      {
+        "text": "年终总结",
+        "link": "/职场/年终总结/"
+      },
       {
         "text": "职场",
         "link": "/职场/"
