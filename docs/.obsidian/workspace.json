@@ -11,8 +11,12 @@
             "id": "624e7791532dc70e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "前端/ES6 学习笔记.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "前端/ES6 学习笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +115,8 @@
   },
   "active": "624e7791532dc70e",
   "lastOpenFiles": [
+    "前端/React 学习笔记.md",
+    "前端/README.md",
     "SOP/开发/接口开发.md",
     "环境安装/README.md",
     "SOP/开发/需求开发（编码的角色）.md",
