@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bf1a4919663531f6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -113,7 +124,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "624e7791532dc70e",
+  "active": "bf1a4919663531f6",
   "lastOpenFiles": [
     "职场/README.md",
     "计划/产品开发计划.md",
