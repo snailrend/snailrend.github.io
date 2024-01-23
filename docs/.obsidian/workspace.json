@@ -23,9 +23,11 @@
             "id": "bf1a4919663531f6",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.5"
+                "file": "职场/吉联项目梳理.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计划/产品开发计划.md",
+                "file": "职场/吉联项目梳理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,6 +106,18 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "76ce476f8f3c9a3e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -126,8 +140,11 @@
   },
   "active": "bf1a4919663531f6",
   "lastOpenFiles": [
-    "职场/README.md",
+    "职场/职业能力结构分析.md",
+    "职场/吉联项目梳理.md",
     "计划/产品开发计划.md",
+    "未命名.canvas",
+    "职场/README.md",
     "计划",
     "前端/README.md",
     "前端/React 学习笔记.md",
@@ -140,7 +157,6 @@
     "README.md",
     "职场/年终总结/2022年终总结.md",
     "职场/重要会议场景.md",
-    "职场/职业能力结构分析.md",
     "Pasted image 20220525175417.png.md",
     "template/template.md"
   ]
